@@ -1,0 +1,33 @@
+.box{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+   
+}
+h1{
+    text-align: center;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#pink{
+    background-color: pink;
+}
+#cyan{
+    background-color: cyan;
+}
