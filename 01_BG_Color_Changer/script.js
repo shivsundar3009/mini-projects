@@ -1,9 +1,8 @@
  const boxes = document.querySelectorAll('.box')
 
- boxes.addEventListener('click',()=>{
-    console.log('clickced');
- })
-
- boxes.forEach(function(e){
-   console.log(e);
+ boxes.forEach(function(box){
+   box.addEventListener('click',(e)=>{
+    console.log(e.target)
+    
+   }) 
  })
